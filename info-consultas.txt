@@ -53,7 +53,7 @@ Fecha: 12, Febrero, 2025. 6:11 AM
 Comentario: Se le esperan 10 minutos luego se genera en baul
 
 ----------------
-Nombre: https://x1.intellisurvey.com/s
+Nombre: https://x1.intellisurvey.com/
 Tipo de Survey: Samplicious
 Fecha: 12, Febrero, 2025. 6:11 AM
 Comentario: Se le esperan 10 minutos luego se genera en baul
