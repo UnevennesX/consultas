@@ -57,3 +57,11 @@ Nombre: https://x1.intellisurvey.com/s
 Tipo de Survey: Samplicious
 Fecha: 12, Febrero, 2025. 6:11 AM
 Comentario: Se le esperan 10 minutos luego se genera en baul
+
+----------------
+Nombre: https://nrg.decipherinc.com/
+Tipo de Survey: Spectrum
+Fecha: 12, Febrero, 2025. 6:11 AM
+Comentario: Se le esperan 10 minutos luego se genera en baul
+
+----------------
