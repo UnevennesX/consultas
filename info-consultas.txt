@@ -65,3 +65,15 @@ Fecha: 12, Febrero, 2025. 6:11 AM
 Comentario: Se le esperan 10 minutos luego se genera en baul
 
 ----------------
+Nombre: https://platform.goodhumanpartners.com/
+Tipo de Survey: Spectrum
+Fecha: 2025-02-15T02:10
+Comentario: NO PAGA!
+
+----------------
+Nombre: https://survey.opinionationzone.com/
+Tipo de Survey: Spectrum
+Fecha: 2025-02-15T02:11
+Comentario: Si paga! 10 mn y se genera.
+
+
