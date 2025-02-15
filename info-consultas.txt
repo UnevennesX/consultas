@@ -81,3 +81,10 @@ Nombre: https://survey7.jdpoweronline.com/
 Tipo de Survey: Spectrum
 Fecha: 2025-02-15T03:05
 Comentario: Se genera 10 mn.
+
+----------------
+Nombre: https://survey.alchemer.com/
+Tipo de Survey: Spectrum
+Fecha: 2025-02-15T03:06
+Comentario: 10 mn y se genera
+
