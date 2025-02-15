@@ -2,67 +2,67 @@
 Nombre: https://sw2.decipherinc.com/
 Tipo de Survey: Spectrum
 Fecha: 12, Febrero, 2025. 6:11 AM
-Comentario: Se le esperan 10 minutos luego se genera en baul
+Comentario: Se le esperan 10 minutos luego se genera en baul (V3)
 
 ----------------
 Nombre: https://mcg.decipherinc.com/
 Tipo de Survey: Spectrum
 Fecha: 12, Febrero, 2025. 6:11 AM
-Comentario: Se le esperan 10 minutos luego se genera en baul
+Comentario: Se le esperan 10 minutos luego se genera en baul (V3)
 
 ----------------
 Nombre: https://glg.decipherinc.com/
 Tipo de Survey: Spectrum
 Fecha: 12, Febrero, 2025. 6:11 AM
-Comentario: Se le esperan 10 minutos luego se genera en baul
+Comentario: Se le esperan 10 minutos luego se genera en baul (V3)
 
 ----------------
 Nombre: https://survey.qualtrics.com/
 Tipo de Survey: Samplicious
 Fecha: 12, Febrero, 2025. 6:11 AM
-Comentario: Se le esperan 10 minutos luego se genera en baul
+Comentario: Se le esperan 10 minutos luego se genera en baul (Qualtric 14)
 
 ----------------
 Nombre: https://eu3.intellisurvey.com/
 Tipo de Survey: Samplicious
 Fecha: 12, Febrero, 2025. 6:11 AM
-Comentario: Se le esperan 10 minutos luego se genera en baul
+Comentario: Se le esperan 10 minutos luego se genera en baul (Intelli V2) revisar si sigue en mantenimiento o si ya está activo.
 
 ----------------
 Nombre: https://s1.intellisurvey.com/
 Tipo de Survey: Samplicious
 Fecha: 12, Febrero, 2025. 6:11 AM
-Comentario: Se le esperan 10 minutos luego se genera en baul
+Comentario: Se le esperan 10 minutos luego se genera en baul (Intelli V2) revisar si sigue en mantenimiento o si ya está activo.
 
 ----------------
 Nombre: https://narwhal.intellisurvey.com/
 Tipo de Survey: Samplicious
 Fecha: 12, Febrero, 2025. 6:11 AM
-Comentario: Se le esperan 10 minutos luego se genera en baul
+Comentario: Se le esperan 10 minutos luego se genera en baul (Intelli V2) revisar si sigue en mantenimiento o si ya está activo.
 
 ----------------
 Nombre: https://m1.intellisurvey.com/
 Tipo de Survey: Samplicious
 Fecha: 12, Febrero, 2025. 6:11 AM
-Comentario: Se le esperan 10 minutos luego se genera en baul
+Comentario: Se le esperan 10 minutos luego se genera en baul (Intelli V2) revisar si sigue en mantenimiento o si ya está activo.
 
 ----------------
 Nombre: https://j1.intellisurvey.com/
 Tipo de Survey: Samplicious
 Fecha: 12, Febrero, 2025. 6:11 AM
-Comentario: Se le esperan 10 minutos luego se genera en baul
+Comentario: Se le esperan 10 minutos luego se genera en baul (Intelli V2) revisar si sigue en mantenimiento o si ya está activo.
 
 ----------------
 Nombre: https://x1.intellisurvey.com/
 Tipo de Survey: Samplicious
 Fecha: 12, Febrero, 2025. 6:11 AM
-Comentario: Se le esperan 10 minutos luego se genera en baul
+Comentario: Se le esperan 10 minutos luego se genera en baul (Intelli V2) revisar si sigue en mantenimiento o si ya está activo.
 
 ----------------
 Nombre: https://nrg.decipherinc.com/survey/selfserve/53b/
 Tipo de Survey: Spectrum
 Fecha: 12, Febrero, 2025. 6:11 AM
-Comentario: Se le esperan 10 minutos luego se genera en baul
+Comentario: Se le esperan 10 minutos luego se genera en baul (V3)
 
 ----------------
 Nombre: https://platform.goodhumanpartners.com/
@@ -74,17 +74,17 @@ Comentario: NO PAGA!
 Nombre: https://survey.opinionationzone.com/
 Tipo de Survey: Spectrum
 Fecha: 2025-02-15T02:11
-Comentario: Si paga! 10 mn y se genera.
+Comentario: Si paga! 10 mn y se genera. (V3)
 
 ----------------
 Nombre: https://survey7.jdpoweronline.com/
 Tipo de Survey: Spectrum
 Fecha: 2025-02-15T03:05
-Comentario: Se genera 10 mn.
+Comentario: Se genera 10 mn. (GEN > JDPOWER)
 
 ----------------
 Nombre: https://survey.alchemer.com/
 Tipo de Survey: Spectrum
 Fecha: 2025-02-15T03:06
-Comentario: 10 mn y se genera
+Comentario: 10 mn y se genera (Gen > Alchemer)
 
