@@ -93,3 +93,10 @@ Nombre: https://slm.e2eresearch.com/
 Tipo de Survey: Spectrum
 Fecha: 2025-02-16T03:57
 Comentario: Si paga! Corto (V1)
+
+----------------
+Nombre: https://2cvresearch.decipherinc.com/
+Tipo de Survey: Spectrum
+Fecha: 2025-02-18T10:05
+Comentario: Se genera 10 mn si paga (V3)
+
