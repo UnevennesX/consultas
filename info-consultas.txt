@@ -110,7 +110,6 @@ Comentario: Se califica y se hace (solo si califica)
 Nombre: https://surveysconnect.co.uk/
 Tipo de Survey: Samplicious
 Fecha: 2025-02-21T13:00
-Comentario: Paga bello.  Se borra hasta el primer = link
+Comentario: Paga bello.  Se borra hasta el primer "=" del link y se le agrega 67xxxx del relevant luego en All Samplicious
 
-Y se le agrega 67xxxx del relevant luego en All Samplicious
 
