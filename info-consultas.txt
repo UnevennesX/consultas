@@ -100,3 +100,17 @@ Tipo de Survey: Spectrum
 Fecha: 2025-02-18T10:05
 Comentario: Se genera 10 mn si paga (V3)
 
+----------------
+Nombre: https://surveys.sampletap.com/
+Tipo de Survey: Spectrum
+Fecha: 2025-02-21T12:58
+Comentario: Se califica y se hace (solo si califica)
+
+----------------
+Nombre: https://surveysconnect.co.uk/
+Tipo de Survey: Samplicious
+Fecha: 2025-02-21T13:00
+Comentario: Paga bello.  Se borra hasta el primer = link
+
+Y se le agrega 67xxxx del relevant luego en All Samplicious
+
