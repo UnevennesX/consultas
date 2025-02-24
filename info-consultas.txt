@@ -117,3 +117,9 @@ Tipo de Survey: Samplicious
 Fecha: 2025-02-24T16:02
 Comentario: NO PAGA!
 
+----------------
+Nombre: https://experian.quantilopesurvey.com/
+Tipo de Survey: Spectrum
+Fecha: 2025-02-24T16:17
+Comentario: Consultar en el dia pero no estaba y no paga con corto
+
