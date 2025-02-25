@@ -123,3 +123,9 @@ Tipo de Survey: Spectrum
 Fecha: 2025-02-24T16:17
 Comentario: Consultar en el dia pero no estaba y no paga con corto
 
+----------------
+Nombre: https://www.incentiveopinion.com/
+Tipo de Survey: Spectrum
+Fecha: 2025-02-25T13:42
+Comentario: No paga ni con interno
+
