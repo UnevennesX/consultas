@@ -129,3 +129,9 @@ Tipo de Survey: Spectrum
 Fecha: 2025-02-25T13:42
 Comentario: No paga ni con interno
 
+----------------
+Nombre: https://x1.intellisurvey.com/pub/
+Tipo de Survey: Spectrum
+Fecha: 2025-02-25T17:16
+Comentario: All v3 si paga!
+
