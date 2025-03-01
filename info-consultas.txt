@@ -145,5 +145,5 @@ Comentario: QUALTRICS14
 Nombre: https://direct.crowdtap.com/
 Tipo de Survey: Spectrum
 Fecha: 2025-03-01T19:02
-Comentario: Si paga! Con Corto!
+Comentario: Si paga! Con Corto! (V1)
 
