@@ -141,3 +141,9 @@ Tipo de Survey: Samplicious
 Fecha: 2025-02-26T15:32
 Comentario: QUALTRICS14
 
+----------------
+Nombre: https://direct.crowdtap.com/
+Tipo de Survey: Spectrum
+Fecha: 2025-03-01T19:02
+Comentario: Si paga! Con Corto!
+
