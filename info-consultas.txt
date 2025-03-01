@@ -147,3 +147,9 @@ Tipo de Survey: Spectrum
 Fecha: 2025-03-01T19:02
 Comentario: Si paga! Con Corto! (V1)
 
+----------------
+Nombre: https://purespectrum.decipherinc.com/survey/selfserve/53b/
+Tipo de Survey: Spectrum
+Fecha: 2025-03-01T19:54
+Comentario: No paga con v3! .. quizas es como la sw2 que paga un dia si otros no...
+
