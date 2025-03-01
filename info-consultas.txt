@@ -153,3 +153,9 @@ Tipo de Survey: Spectrum
 Fecha: 2025-03-01T19:54
 Comentario: No paga con v3! .. quizas es como la sw2 que paga un dia si otros no...
 
+----------------
+Nombre: https://github.com/UnevennesX/agg-consultas/blob/main/index.html
+Tipo de Survey: Sw.Cint
+Fecha: 2025-03-01T22:06
+Comentario: si paga
+
