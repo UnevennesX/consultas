@@ -1,3 +1,16 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -8,52 +21,23 @@
     <style>
         /* === CSS COMPLETO ACTUALIZADO CON FONDO DE CIELO SUAVE === */
         body {
-            font-family: 'Roboto', sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            margin: 0;
-            /* Cambiado a un degradado suave de cielo */
-            background: linear-gradient(to bottom, #a8c0ff, #3f2b96); /* Un cielo azul claro */
-            color: #ddd;
-            overflow: auto;
-            padding: 20px;
-            box-sizing: border-box;
-        }
-        .stars {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            /* Estrellas más sutiles */
-            background: transparent url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAIklEQVQIW2NkQAKrVq36zwjjgzhhYWGMYAEYB8RmROaABADeOQ8CXl/xfgAAAABJRU5ErkJggg==');
-            z-index: -1;
-            animation: stars 400s linear infinite; /* Animación más lenta */
-            opacity: 0.3; /* Estrellas más tenues */
-        }
-        .twinkling {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: transparent url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAIklEQVQIW2NkQAKrVq36zwjjgzhhYWGMYAEYB8RmROaABADeOQ8CXl/xfgAAAABJRU5ErkJggg==');
-            z-index: -1;
-            animation: twinkling 400s linear infinite; /* Animación más lenta */
-            opacity: 0.2; /* Destellos más tenues */
-        }
-        @keyframes stars {
-            0% { background-position: 0 0; }
-            100% { background-position: -5000px 2500px; } /* Reducido el desplazamiento */
-        }
-        @keyframes twinkling {
-            0% { background-position: 0 0; }
-            100% { background-position: -5000px 2500px; } /* Reducido el desplazamiento */
-        }
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #121212; /* Negro muy oscuro */
+    color: #e0e0e0; /* Gris claro para el texto */
+    overflow: auto;
+    padding: 20px;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased; /* Mejora el suavizado de fuentes en navegadores WebKit */
+    -moz-osx-font-smoothing: grayscale; /* Mejora el suavizado de fuentes en Firefox */
+}
+
         .container {
-            background: rgba(30, 30, 30, 0.8); /* Ligeramente más transparente */
+            background: #262626; /* Ligeramente más transparente */
             padding: 30px;
             border-radius: 15px;
             box-shadow: 0 0 25px rgba(255, 255, 255, 0.08);
@@ -203,7 +187,8 @@
     <div class="stars"></div>
     <div class="twinkling"></div>
     <div class="container">
-        <h1 id="linkTitle">Consulta de Surveys</h1>
+        <img src="https://cdn.dribbble.com/users/7549673/screenshots/17206704/media/1210a9d0ec8af427967e735935861eeb.png?resize=70x60&vertical=center" alt="Imagen">
+        <h1 id="linkTitle">Consulta de Surveys</h1> 
         <textarea id="urlInput" placeholder="Pega el URL de la survey aquí..."></textarea>
         <button id="consultarButton">Consultar</button><br><br>
         <div id="resultados"></div>
@@ -212,7 +197,7 @@
         <div class="modal-content">
             <span class="close-button" id="closeModal">×</span>
             <h2>Información</h2>
-            <p>Herramienta de Consulta de Surveys<br><br>Basado en datos actualizados desde GitHub</p>
+            <p>Herramienta de Consulta de Surveys<br><br>Basado en datos actualizados Admin-Consultas</p>
             <h1 class="linkpagina" data-url="https://unevennesx.github.io/agg-consultas/">Admin-Consultas</h1>
         </div>
     </div>
