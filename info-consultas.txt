@@ -159,3 +159,9 @@ Tipo de Survey: Samplicious
 Fecha: 2025-03-04T02:03
 Comentario: No paga
 
+----------------
+Nombre: https://iig.survoxinc.com/
+Tipo de Survey: Spectrum
+Fecha: 2025-03-05T04:04
+Comentario: Corto (V1) Si paga!
+
