@@ -231,6 +231,7 @@
             const datosURL2 = 'https://raw.githubusercontent.com/UnevennesX/-CheckLinks-/main/datos-info.txt';
             let dataCache1 = [];
             let dataCache2 = [];
+            let timeoutId;
 
             // Función para obtener datos
             async function obtenerDatos(url) {
@@ -301,7 +302,29 @@
                     <p><strong>Comentario:</strong> ${item.Comentario}</p>
                 </div>
             `).join('');
+                resetInactivityTimeout(); // Resetear el temporizador después de una consulta exitosa
             }
+
+            // Limpiar el campo de entrada
+            function clearInputField() {
+                urlInput.value = '';
+                resultadosDiv.innerHTML = ''; // Limpiar los resultados también
+            }
+
+            // Función para resetear el temporizador de inactividad
+            function resetInactivityTimeout() {
+                clearTimeout(timeoutId); // Limpiar el temporizador anterior
+                timeoutId = setTimeout(clearInputField, 10000); // 10 segundos
+            }
+
+            // Iniciar el temporizador al cargar la página
+            resetInactivityTimeout();
+
+            // Resetear el temporizador con cada interacción del usuario
+            document.addEventListener('mousemove', resetInactivityTimeout);
+            document.addEventListener('keypress', resetInactivityTimeout);
+            document.addEventListener('click', resetInactivityTimeout);
+
 
             // Event listeners
             consultarButton.addEventListener('click', mostrarResultados);
