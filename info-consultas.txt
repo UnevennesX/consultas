@@ -1,7 +1,7 @@
 Nombre: https://sw2.decipherinc.com/
 Tipo de Survey: Spectrum
 Fecha: 12, Febrero, 2025. 6:11 AM
-Comentario: Se le esperan 10 minutos luego se genera en baul (V3)
+Comentario: Odiosita se genera en baul pero normalmente no ha estado pagando desde hace rato (V3)
 
 ----------------
 Nombre: https://mcg.decipherinc.com/
@@ -170,4 +170,10 @@ Nombre: https://www.calicosurveys.com/survey/selfserve/53b/
 Tipo de Survey: Spectrum
 Fecha: 2025-03-17T02:25
 Comentario: Si paga 10 Mn ALLDECIFERICV3 BAUL
+
+----------------
+Nombre: https://web.appin.io/
+Tipo de Survey: Spectrum
+Fecha: 2025-03-18T00:15
+Comentario: No se hace.
 
