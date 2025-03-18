@@ -1,43 +1,37 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Consulta de Surveys</title>
-    <link rel="icon" type="image/png" href="https://cdn.dribbble.com/users/7549673/screenshots/17206704/media/1210a9d0ec8af427967e735935861eeb.png?resize=400x300&vertical=center" />
+    <link rel="icon" type="image/png"
+        href="https://cdn.dribbble.com/users/7549673/screenshots/17206704/media/1210a9d0ec8af427967e735935861eeb.png?resize=400x300&vertical=center" />
     <style>
         /* === CSS COMPLETO ACTUALIZADO CON FONDO DE CIELO SUAVE === */
         body {
-    font-family: 'Roboto', sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    margin: 0;
-    background-color: #121212; /* Negro muy oscuro */
-    color: #e0e0e0; /* Gris claro para el texto */
-    overflow: auto;
-    padding: 20px;
-    box-sizing: border-box;
-    -webkit-font-smoothing: antialiased; /* Mejora el suavizado de fuentes en navegadores WebKit */
-    -moz-osx-font-smoothing: grayscale; /* Mejora el suavizado de fuentes en Firefox */
-}
+            font-family: 'Roboto', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #121212;
+            /* Negro muy oscuro */
+            color: #e0e0e0;
+            /* Gris claro para el texto */
+            overflow: auto;
+            padding: 20px;
+            box-sizing: border-box;
+            -webkit-font-smoothing: antialiased;
+            /* Mejora el suavizado de fuentes en navegadores WebKit */
+            -moz-osx-font-smoothing: grayscale;
+            /* Mejora el suavizado de fuentes en Firefox */
+        }
 
         .container {
-            background: #262626; /* Ligeramente más transparente */
+            background: #262626;
+            /* Ligeramente más transparente */
             padding: 30px;
             border-radius: 15px;
             box-shadow: 0 0 25px rgba(255, 255, 255, 0.08);
@@ -48,6 +42,7 @@
             backdrop-filter: blur(10px);
             position: relative;
         }
+
         h1 {
             margin-bottom: 25px;
             color: #bbb;
@@ -57,9 +52,11 @@
             transition: color 0.3s ease;
             cursor: pointer;
         }
+
         h1:hover {
             color: #00ff88;
         }
+
         textarea {
             width: calc(100% - 20px);
             padding: 12px;
@@ -72,10 +69,12 @@
             color: #eee;
             transition: border-color 0.3s ease;
         }
+
         textarea:focus {
             outline: none;
             border-color: #bbb;
         }
+
         button {
             padding: 12px 25px;
             background-color: #9e9e9e;
@@ -88,15 +87,18 @@
             font-weight: 600;
             letter-spacing: 1px;
         }
+
         button:hover {
             background-color: #757575;
             transform: scale(1.05);
         }
+
         #resultados {
             margin-top: 25px;
             text-align: left;
             overflow-wrap: break-word;
         }
+
         .sugerencia {
             border: 1px solid #444;
             padding: 15px;
@@ -105,24 +107,29 @@
             background-color: #222;
             transition: all 0.3s ease;
         }
+
         .sugerencia:hover {
             transform: translateY(-5px);
             box-shadow: 0 5px 15px rgba(255, 255, 255, 0.05);
         }
+
         .sugerencia h3 {
             margin-top: 0;
             color: #ddd;
             margin-bottom: 10px;
             font-weight: 600;
         }
+
         .sugerencia p {
             margin-bottom: 8px;
             color: #ddd;
         }
+
         .sugerencia strong {
             color: #bbb;
             font-weight: 600;
         }
+
         .copy-link {
             color: #bbb;
             text-decoration: none;
@@ -134,13 +141,16 @@
             border-radius: 4px;
             position: relative;
         }
+
         .copy-link.copiado {
             color: #00ff88 !important;
             font-weight: bold;
         }
+
         .copy-link.error {
             color: #ff4444 !important;
         }
+
         .modal {
             display: none;
             position: fixed;
@@ -152,6 +162,7 @@
             overflow: auto;
             background-color: rgba(0, 0, 0, 0.4);
         }
+
         .modal-content {
             background-color: #222;
             margin: 15% auto;
@@ -161,6 +172,7 @@
             max-width: 500px;
             position: relative;
         }
+
         .close-button {
             position: absolute;
             top: 10px;
@@ -170,25 +182,30 @@
             cursor: pointer;
             color: #bbb;
         }
+
         .close-button:hover {
             color: #ddd;
         }
+
         .linkpagina {
             color: #00ff88;
             cursor: pointer;
             transition: color 0.3s ease;
         }
+
         .linkpagina:hover {
             color: #00cc6a;
         }
     </style>
 </head>
+
 <body>
     <div class="stars"></div>
     <div class="twinkling"></div>
     <div class="container">
-        <img src="https://cdn.dribbble.com/users/7549673/screenshots/17206704/media/1210a9d0ec8af427967e735935861eeb.png?resize=70x60&vertical=center" alt="Imagen">
-        <h1 id="linkTitle">Consulta de Surveys</h1> 
+        <img src="https://cdn.dribbble.com/users/7549673/screenshots/17206704/media/1210a9d0ec8af427967e735935861eeb.png?resize=70x60&vertical=center"
+            alt="Imagen">
+        <h1 id="linkTitle">Consulta de Surveys</h1>
         <textarea id="urlInput" placeholder="Pega el URL de la survey aquí..."></textarea>
         <button id="consultarButton">Consultar</button><br><br>
         <div id="resultados"></div>
@@ -201,28 +218,36 @@
             <h1 class="linkpagina" data-url="https://unevennesx.github.io/agg-consultas/">Admin-Consultas</h1>
         </div>
     </div>
+
     <script>
         document.addEventListener('DOMContentLoaded', () => {
             const urlInput = document.getElementById('urlInput');
             const consultarButton = document.getElementById('consultarButton');
             const resultadosDiv = document.getElementById('resultados');
-            const datosURL = 'https://raw.githubusercontent.com/UnevennesX/consultas/main/info-consultas.txt';
             const linkTitle = document.getElementById('linkTitle');
             const infoModal = document.getElementById('infoModal');
             const closeModal = document.getElementById('closeModal');
-            let dataCache = [];
+            const datosURL1 = 'https://raw.githubusercontent.com/UnevennesX/consultas/main/info-consultas.txt';
+            const datosURL2 = 'https://raw.githubusercontent.com/UnevennesX/-CheckLinks-/main/datos-info.txt';
+            let dataCache1 = [];
+            let dataCache2 = [];
+
             // Función para obtener datos
-            async function obtenerDatos() {
+            async function obtenerDatos(url) {
                 try {
-                    const response = await fetch(datosURL);
+                    const response = await fetch(url);
+                    if (!response.ok) {
+                        throw new Error(`HTTP error! status: ${response.status}`);
+                    }
                     const data = await response.text();
                     return parseData(data);
                 } catch (error) {
-                    console.error('Error:', error);
+                    console.error('Error al obtener los datos:', error);
                     resultadosDiv.innerHTML = '<div class="sugerencia error">Error al cargar los datos</div>';
                     return [];
                 }
             }
+
             // Parsear datos
             function parseData(data) {
                 return data.split('----------------')
@@ -237,7 +262,8 @@
                         return entryData;
                     });
             }
-            // Función para mostrar los resultados
+
+            // Función para mostrar los resultados combinados
             async function mostrarResultados() {
                 const urlIngresada = urlInput.value.trim();
                 if (!urlIngresada) {
@@ -245,37 +271,57 @@
                     return;
                 }
                 resultadosDiv.innerHTML = '<div class="sugerencia">Buscando...</div>';
-                if (dataCache.length === 0) {
-                    dataCache = await obtenerDatos();
+
+                // Cargar los datos de ambos archivos si no están en la caché
+                if (dataCache1.length === 0) {
+                    dataCache1 = await obtenerDatos(datosURL1);
                 }
-                // Buscar coincidencia por nombre en el URL ingresado
-                const resultadosFiltrados = dataCache.filter(item => urlIngresada.includes(item.Nombre));
-                if (resultadosFiltrados.length === 0) {
+                if (dataCache2.length === 0) {
+                    dataCache2 = await obtenerDatos(datosURL2);
+                }
+
+                // Filtrar los resultados de ambos archivos
+                const resultadosFiltrados1 = dataCache1.filter(item => urlIngresada.includes(item.Nombre));
+                const resultadosFiltrados2 = dataCache2.filter(item => urlIngresada.toLowerCase().includes(item.Nombre.toLowerCase()));
+
+                // Combinar los resultados
+                const resultadosCombinados = [...resultadosFiltrados1, ...resultadosFiltrados2];
+
+                if (resultadosCombinados.length === 0) {
                     resultadosDiv.innerHTML = `<div class="sugerencia error">No se encontraron resultados para este URL.</div>`;
                     return;
                 }
-                resultadosDiv.innerHTML = resultadosFiltrados.map(item => `
-                    <div class="sugerencia">
-                        <h3>${item.Nombre}</h3>
-                        <p><strong>Tipo:</strong> ${item['Tipo de Survey']}</p>
-                        <p><strong>Fecha:</strong> ${item.Fecha}</p>
-                        <p><strong>Comentario:</strong> ${item.Comentario}</p>
-                    </div>
-                `).join('');
+
+                // Mostrar los resultados combinados
+                resultadosDiv.innerHTML = resultadosCombinados.map(item => `
+                <div class="sugerencia">
+                    <h3>${item.Nombre}</h3>
+                    <p><strong>Tipo:</strong> ${item['Tipo de Survey']}</p>
+                    <p><strong>Fecha:</strong> ${item.Fecha}</p>
+                    <p><strong>Comentario:</strong> ${item.Comentario}</p>
+                </div>
+            `).join('');
             }
+
             // Event listeners
             consultarButton.addEventListener('click', mostrarResultados);
-            // Control del modal
+
             linkTitle.addEventListener('click', () => infoModal.style.display = 'block');
             closeModal.addEventListener('click', () => infoModal.style.display = 'none');
+
             window.addEventListener('click', (e) => {
-                if (e.target === infoModal) infoModal.style.display = 'none';
+                if (e.target === infoModal) {
+                    infoModal.style.display = 'none';
+                }
             });
+
             document.querySelector('.linkpagina').addEventListener('click', (e) => {
                 window.open(e.target.dataset.url, '_blank');
                 infoModal.style.display = 'none';
             });
         });
     </script>
+
 </body>
+
 </html>
