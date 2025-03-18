@@ -177,3 +177,9 @@ Tipo de Survey: Spectrum
 Fecha: 2025-03-18T00:15
 Comentario: No se hace.
 
+----------------
+Nombre: https://nk.decipherinc.com/survey/selfserve/1344/
+Tipo de Survey: Spectrum
+Fecha: 2025-03-18T00:57
+Comentario: No paga...
+
