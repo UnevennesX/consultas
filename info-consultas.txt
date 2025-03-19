@@ -183,3 +183,9 @@ Tipo de Survey: Spectrum
 Fecha: 2025-03-18T00:57
 Comentario: No paga...
 
+----------------
+Nombre: https://lucid.qualtrics.com/
+Tipo de Survey: Samplicious
+Fecha: 2025-03-19T23:38
+Comentario: No paga con Qualtric 14. y no tiene noct
+
