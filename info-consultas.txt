@@ -187,5 +187,5 @@ Comentario: No paga...
 Nombre: https://lucid.qualtrics.com/
 Tipo de Survey: Samplicious
 Fecha: 2025-03-19T23:38
-Comentario: No paga con Qualtric 14. y no tiene noct
+Comentario: Probar el nuevo generador. en baul
 
