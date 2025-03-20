@@ -8,7 +8,6 @@
     <link rel="icon" type="image/png"
         href="https://cdn.dribbble.com/users/7549673/screenshots/17206704/media/1210a9d0ec8af427967e735935861eeb.png?resize=400x300&vertical=center" />
     <style>
-        /* === CSS COMPLETO ACTUALIZADO CON FONDO DE CIELO SUAVE === */
         body {
             font-family: 'Roboto', sans-serif;
             display: flex;
@@ -17,21 +16,16 @@
             min-height: 100vh;
             margin: 0;
             background-color: #121212;
-            /* Negro muy oscuro */
             color: #e0e0e0;
-            /* Gris claro para el texto */
             overflow: auto;
             padding: 20px;
             box-sizing: border-box;
             -webkit-font-smoothing: antialiased;
-            /* Mejora el suavizado de fuentes en navegadores WebKit */
             -moz-osx-font-smoothing: grayscale;
-            /* Mejora el suavizado de fuentes en Firefox */
         }
 
         .container {
             background: #262626;
-            /* Ligeramente más transparente */
             padding: 30px;
             border-radius: 15px;
             box-shadow: 0 0 25px rgba(255, 255, 255, 0.08);
@@ -233,7 +227,6 @@
             let dataCache2 = [];
             let timeoutId;
 
-            // Función para obtener datos
             async function obtenerDatos(url) {
                 try {
                     const response = await fetch(url);
@@ -249,7 +242,6 @@
                 }
             }
 
-            // Parsear datos
             function parseData(data) {
                 return data.split('----------------')
                     .filter(entry => entry.trim())
@@ -264,7 +256,34 @@
                     });
             }
 
-            // Función para mostrar los resultados combinados
+            function extraerDominio(url) {
+                try {
+                    const urlObj = new URL(url);
+                    return urlObj.hostname; // Esto devuelve solo el nombre de dominio (ej: www.example.com)
+                } catch (e) {
+                    console.error("URL inválida:", url, e);
+                    return null;
+                }
+            }
+
+            function buscarCoincidencias(urlIngresada, data) {
+                const dominioIngresado = extraerDominio(urlIngresada); // Extrae el dominio de la URL ingresada
+                const resultados = [];
+
+                if (!dominioIngresado) return resultados; // Si no se pudo extraer el dominio, regresa un array vacío
+
+                for (const item of data) {
+                    const dominioItem = extraerDominio(item.Nombre); // Extrae el dominio del item
+
+                    if (dominioItem && dominioIngresado.toLowerCase() === dominioItem.toLowerCase()) {
+                        resultados.push(item); // Si los dominios coinciden (sin importar mayúsculas/minúsculas), agrega el item
+                    }
+                }
+
+                return resultados;
+            }
+
+
             async function mostrarResultados() {
                 const urlIngresada = urlInput.value.trim();
                 if (!urlIngresada) {
@@ -273,7 +292,6 @@
                 }
                 resultadosDiv.innerHTML = '<div class="sugerencia">Buscando...</div>';
 
-                // Cargar los datos de ambos archivos si no están en la caché
                 if (dataCache1.length === 0) {
                     dataCache1 = await obtenerDatos(datosURL1);
                 }
@@ -281,11 +299,9 @@
                     dataCache2 = await obtenerDatos(datosURL2);
                 }
 
-                // Filtrar los resultados de ambos archivos
-                const resultadosFiltrados1 = dataCache1.filter(item => urlIngresada.includes(item.Nombre));
-                const resultadosFiltrados2 = dataCache2.filter(item => urlIngresada.toLowerCase().includes(item.Nombre.toLowerCase()));
+                const resultadosFiltrados1 = buscarCoincidencias(urlIngresada, dataCache1);
+                const resultadosFiltrados2 = buscarCoincidencias(urlIngresada, dataCache2);
 
-                // Combinar los resultados
                 const resultadosCombinados = [...resultadosFiltrados1, ...resultadosFiltrados2];
 
                 if (resultadosCombinados.length === 0) {
@@ -293,7 +309,6 @@
                     return;
                 }
 
-                // Mostrar los resultados combinados
                 resultadosDiv.innerHTML = resultadosCombinados.map(item => `
                 <div class="sugerencia">
                     <h3>${item.Nombre}</h3>
@@ -302,31 +317,25 @@
                     <p><strong>Comentario:</strong> ${item.Comentario}</p>
                 </div>
             `).join('');
-                resetInactivityTimeout(); // Resetear el temporizador después de una consulta exitosa
+                resetInactivityTimeout();
             }
 
-            // Limpiar el campo de entrada
             function clearInputField() {
                 urlInput.value = '';
-                resultadosDiv.innerHTML = ''; // Limpiar los resultados también
+                resultadosDiv.innerHTML = '';
             }
 
-            // Función para resetear el temporizador de inactividad
             function resetInactivityTimeout() {
-                clearTimeout(timeoutId); // Limpiar el temporizador anterior
-                timeoutId = setTimeout(clearInputField, 10000); // 10 segundos
+                clearTimeout(timeoutId);
+                timeoutId = setTimeout(clearInputField, 10000);
             }
 
-            // Iniciar el temporizador al cargar la página
             resetInactivityTimeout();
 
-            // Resetear el temporizador con cada interacción del usuario
             document.addEventListener('mousemove', resetInactivityTimeout);
             document.addEventListener('keypress', resetInactivityTimeout);
             document.addEventListener('click', resetInactivityTimeout);
 
-
-            // Event listeners
             consultarButton.addEventListener('click', mostrarResultados);
 
             linkTitle.addEventListener('click', () => infoModal.style.display = 'block');
