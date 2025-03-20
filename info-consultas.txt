@@ -1,7 +1,7 @@
 Nombre: https://sw2.decipherinc.com/
 Tipo de Survey: Spectrum
 Fecha: 12, Febrero, 2025. 6:11 AM
-Comentario: Odiosita se genera en baul pero normalmente no ha estado pagando desde hace rato (V3)
+Comentario: Quierase un poco hijo mio... nei
 
 ----------------
 Nombre: https://mcg.decipherinc.com/
@@ -188,4 +188,10 @@ Nombre: https://lucid.qualtrics.com/
 Tipo de Survey: Samplicious
 Fecha: 2025-03-19T23:38
 Comentario: Probar el nuevo generador. en baul
+
+----------------
+Nombre: https://shrm.co1.qualtrics.com/
+Tipo de Survey: Samplicious
+Fecha: 2025-03-20T17:48
+Comentario: No paga! Ni con qualtric 14.
 
