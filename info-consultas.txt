@@ -195,3 +195,9 @@ Tipo de Survey: Samplicious
 Fecha: 2025-03-20T17:48
 Comentario: No paga! Ni con qualtric 14.
 
+----------------
+Nombre: https://survey.sightx.io/
+Tipo de Survey: Samplicious
+Fecha: 2025-03-21T00:07
+Comentario: "d1cdad74-0c62-4cd1-b68b-9763d7c05f09". con este token no paga.
+
