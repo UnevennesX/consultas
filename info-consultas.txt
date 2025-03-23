@@ -207,3 +207,9 @@ Tipo de Survey: Spectrum
 Fecha: 2025-03-21T17:45
 Comentario: baul v3 se esperan 10mn si paga
 
+----------------
+Nombre: https://vault.questionlab.com/
+Tipo de Survey: Spectrum
+Fecha: 2025-03-23T01:44
+Comentario: no tiene jumper
+
